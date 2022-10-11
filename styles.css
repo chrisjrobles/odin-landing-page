@@ -162,3 +162,52 @@ a {
   font-weight: 800;
   font-size: 18px;
 }
+
+/* CTA */
+.cta-container {
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cta-block {
+  background-color: #3882f6;
+  border-radius: 5px;
+  width: 1200px;
+  height: 125px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cta-content {
+  width: 750px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cta-left {
+  color: #e5e7eb;
+  font-size: 16px;
+}
+
+.cta-title {
+  color: #f9faf8;
+  font-size: 24px;
+}
+
+.cta-right {
+  width: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cta-right > button {
+  background-color: #3882f6;
+  border: 1px solid #f9faf8;
+  border-radius: 5px;
+  color: #f9faf8;
+  padding: 4px 20px;
+}
