@@ -133,3 +133,32 @@ a {
   border-radius: 10px;
   margin-bottom: 12px;
 }
+
+/* QUOTE */
+
+.quote-container {
+  height: 400px;
+  background-color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote-block {
+  width: 830px;
+}
+
+.quote {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  color: #1f2937;
+}
+
+.author {
+  padding-right: 40px;
+  text-align: right;
+  color: #1f2937;
+  font-weight: 800;
+  font-size: 18px;
+}
