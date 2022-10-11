@@ -98,3 +98,38 @@ a {
   align-items: center;
   height: 200px;
 }
+
+/* TILES */
+.tiles-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+.tiles-container > p {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+  padding: 25px;
+}
+
+.tiles { 
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+}
+
+.tile {
+  width: 175px;
+  color: gray;
+  font-size: 18px;
+}
+
+.tile-media {
+  height: 175px;
+  width: 175px;
+  border: 3px solid #3882f6;
+  border-radius: 10px;
+  margin-bottom: 12px;
+}
